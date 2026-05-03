@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蔡王健 | 设计师作品集</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">蔡王健</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">首页</a></li>
+                <li><a href="#works" class="nav-link">作品</a></li>
+                <li><a href="#about" class="nav-link">关于</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="section home-section">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title">蔡王健</h1>
+                    <p class="hero-subtitle">热爱动画创作的服装设计师</p>
+                    <a href="#works" class="cta-button">查看作品</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="works" class="section works-section">
+            <h2 class="section-title">全部作品</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="pattern">图案设计</button>
+                <button class="filter-btn" data-filter="garment">服装设计</button>
+                <button class="filter-btn" data-filter="animation">动画创作</button>
+                <button class="filter-btn" data-filter="3d">3D服装</button>
+            </div>
+            <div class="masonry-grid">
+                <div class="masonry-item" data-category="pattern">
+                    <div class="work-card">
+                        <div class="work-image">
+                            <img src="花卉.png" alt="花卉图案">
+                        </div>
+                        <div class="work-info">
+                            <h3>花卉图案</h3>
+                            <p>手绘花卉图案设计</p>
+                            <span class="category-tag">图案设计</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item" data-category="pattern">
+                    <div class="work-card">
+                        <div class="work-image">
+                            <img src="几何.png" alt="几何图案">
+                        </div>
+                        <div class="work-info">
+                            <h3>几何图案</h3>
+                            <p>现代几何图案设计</p>
+                            <span class="category-tag">图案设计</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item" data-category="garment">
+                    <div class="work-card">
+                        <div class="work-image">
+                            <img src="礼服1.png" alt="晚礼服1">
+                        </div>
+                        <div class="work-info">
+                            <h3>晚礼服</h3>
+                            <p>优雅晚礼服设计</p>
+                            <span class="category-tag">服装设计</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item" data-category="garment">
+                    <div class="work-card">
+                        <div class="work-image">
+                            <img src="礼服2.png" alt="晚礼服2">
+                        </div>
+                        <div class="work-info">
+                            <h3>晚礼服</h3>
+                            <p>精致剪裁与细节</p>
+                            <span class="category-tag">服装设计</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item" data-category="animation">
+                    <div class="work-card">
+                        <div class="work-image video-container">
+                            <video controls>
+                                <source src="动画.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="work-info">
+                            <h3>动画创作</h3>
+                            <p>服装角色动画短片</p>
+                            <span class="category-tag">动画创作</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item" data-category="3d">
+                    <div class="work-card">
+                        <div class="work-image">
+                            <img src="3d时装.png" alt="3D服装">
+                        </div>
+                        <div class="work-info">
+                            <h3>3D服装</h3>
+                            <p>3D建模虚拟服装</p>
+                            <span class="category-tag">3D服装</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item" data-category="3d">
+                    <div class="work-card">
+                        <div class="work-image">
+                            <img src="3d时装1.png" alt="3D服装1">
+                        </div>
+                        <div class="work-info">
+                            <h3>3D服装</h3>
+                            <p>数字时尚设计</p>
+                            <span class="category-tag">3D服装</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item" data-category="3d">
+                    <div class="work-card">
+                        <div class="work-image">
+                            <img src="3d时装2.png" alt="3D服装2">
+                        </div>
+                        <div class="work-info">
+                            <h3>3D服装</h3>
+                            <p>虚拟试衣效果</p>
+                            <span class="category-tag">3D服装</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="masonry-item" data-category="3d">
+                    <div class="work-card">
+                        <div class="work-image">
+                            <img src="3d时装3.png" alt="3D服装3">
+                        </div>
+                        <div class="work-info">
+                            <h3>3D服装</h3>
+                            <p>3D服装展示</p>
+                            <span class="category-tag">3D服装</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="about-content">
+                <div class="about-header">
+                    <h2 class="section-title">关于我</h2>
+                    <div class="about-intro">
+                        <p>你好，我是蔡王健，服装与服饰设计专业。</p>
+                        <p>我热爱幻想构建与动画制作，喜欢将天马行空的想象融入设计之中。通过服装与动画的结合，我创造出充满故事感的视觉世界。</p>
+                    </div>
+                </div>
+                <div class="skills-section">
+                    <h3>技能</h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">服装设计</span>
+                        <span class="skill-tag">动画制作</span>
+                        <span class="skill-tag">Illustrator</span>
+                        <span class="skill-tag">Photoshop</span>
+                        <span class="skill-tag">After Effects</span>
+                        <span class="skill-tag">CLO 3D</span>
+                        <span class="skill-tag">手绘</span>
+                        <span class="skill-tag">色彩理论</span>
+                        <span class="skill-tag">面料研究</span>
+                        <span class="skill-tag">创意设计</span>
+                    </div>
+                </div>
+                <div class="contact-section">
+                    <h3>联系方式</h3>
+                    <div class="contact-links">
+                        <a href="mailto:hello@caiwangjian.com" class="contact-link">
+                            <span class="contact-icon">✉</span>
+                            <span>hello@caiwangjian.com</span>
+                        </a>
+                        <a href="#" class="contact-link">
+                            <span class="contact-icon">📱</span>
+                            <span>微信: caiwangjian_design</span>
+                        </a>
+                        <a href="#" class="contact-link">
+                            <span class="contact-icon">🎨</span>
+                            <span>Behance</span>
+                        </a>
+                        <a href="#" class="contact-link">
+                            <span class="contact-icon">📸</span>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 蔡王健. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
